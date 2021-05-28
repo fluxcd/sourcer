@@ -26,7 +26,6 @@ var (
 	env *envtest.Environment
 )
 
-
 func init() {
 	klog.InitFlags(nil)
 	logger := klogr.New()

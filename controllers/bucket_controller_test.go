@@ -41,7 +41,7 @@ import (
 
 const (
 	bucketInterval = 1 * time.Second
-	bucketTimeout = 30 * time.Second
+	bucketTimeout  = 30 * time.Second
 )
 
 func TestBucketReconciler_Reconcile(t *testing.T) {
